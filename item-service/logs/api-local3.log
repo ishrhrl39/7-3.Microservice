@@ -1,0 +1,56 @@
+2023-04-02T21:29:23.259+09:00  INFO 13232 --- [main] o.msa.item.ItemServiceApplicationTests   : The following 1 profile is active: "local"
+2023-04-02T21:29:24.974+09:00  INFO 13232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-02T21:29:25.222+09:00  INFO 13232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 234 ms. Found 1 JPA repository interfaces.
+2023-04-02T21:29:25.544+09:00  INFO 13232 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=88069ecd-97cf-3708-949b-7bbbd3d56bc5
+2023-04-02T21:29:25.936+09:00  INFO 13232 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-02T21:29:26.045+09:00  INFO 13232 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-02T21:29:26.449+09:00  WARN 13232 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-04-02T21:29:26.719+09:00  INFO 13232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-02T21:29:26.982+09:00  INFO 13232 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@7c840fe3
+2023-04-02T21:29:26.986+09:00  INFO 13232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-02T21:29:27.011+09:00  INFO 13232 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-04-02T21:29:27.012+09:00  WARN 13232 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MariaDB103Dialect has been deprecated; use org.hibernate.dialect.MariaDBDialect instead
+2023-04-02T21:29:28.715+09:00  INFO 13232 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-02T21:29:28.842+09:00  INFO 13232 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-02T21:29:29.698+09:00  WARN 13232 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-02T21:29:32.375+09:00  INFO 13232 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-04-02T21:29:32.510+09:00  INFO 13232 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-04-02T21:29:32.593+09:00  INFO 13232 --- [main] o.msa.item.ItemServiceApplicationTests   : Started ItemServiceApplicationTests in 11.312 seconds (process running for 13.473)
+2023-04-02T21:29:33.004+09:00  INFO 13232 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-04-02T21:29:33.006+09:00  INFO 13232 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
+2023-04-02T21:29:33.011+09:00  INFO 13232 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-02T21:29:33.014+09:00  INFO 13232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-02T21:29:33.020+09:00  INFO 13232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-02T21:35:45.571+09:00  INFO 16832 --- [main] o.msa.item.ItemServiceApplicationTests   : The following 1 profile is active: "local"
+2023-04-02T21:35:46.663+09:00  INFO 16832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-02T21:35:46.839+09:00  INFO 16832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165 ms. Found 1 JPA repository interfaces.
+2023-04-02T21:35:47.129+09:00  INFO 16832 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c6d21e01-b155-304d-b562-ec19d003e3bb
+2023-04-02T21:35:47.450+09:00  INFO 16832 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-02T21:35:47.532+09:00  INFO 16832 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-02T21:35:47.766+09:00  WARN 16832 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-04-02T21:35:47.976+09:00  INFO 16832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-02T21:35:48.100+09:00  INFO 16832 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@be083e1
+2023-04-02T21:35:48.103+09:00  INFO 16832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-02T21:35:48.129+09:00  INFO 16832 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-04-02T21:35:48.130+09:00  WARN 16832 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MariaDB103Dialect has been deprecated; use org.hibernate.dialect.MariaDBDialect instead
+2023-04-02T21:35:49.319+09:00  INFO 16832 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-02T21:35:49.331+09:00  INFO 16832 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-02T21:35:49.897+09:00  WARN 16832 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-02T21:35:51.968+09:00  INFO 16832 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-04-02T21:35:51.969+09:00  INFO 16832 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-04-02T21:35:51.977+09:00  INFO 16832 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-04-02T21:35:51.990+09:00  INFO 16832 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 21 ms
+2023-04-02T21:35:52.102+09:00  INFO 16832 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-04-02T21:35:52.264+09:00  INFO 16832 --- [main] o.msa.item.ItemServiceApplicationTests   : Started ItemServiceApplicationTests in 8.159 seconds (process running for 9.553)
+2023-04-02T21:35:52.608+09:00  INFO 16832 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2023-04-02T21:35:52.608+09:00  INFO 16832 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-04-02T21:35:52.609+09:00  INFO 16832 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-04-02T21:35:52.632+09:00  INFO 16832 --- [main] o.msa.item.ItemServiceApplicationTests   : {"id":"test1","name":"상품명테스트","description":"상품 설명테스트","itemType":null,"count":50,"regDts":null,"updDts":null}
+2023-04-02T21:35:52.731+09:00  WARN 16832 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.msa.item.controller.ItemController
+2023-04-02T21:35:52.734+09:00  INFO 16832 --- [main] org.msa.item.controller.ItemController   : accountId = admin
+2023-04-02T21:35:52.967+09:00 DEBUG 16832 --- [main] org.msa.item.controller.ItemController   : request add item id = test1
+2023-04-02T21:35:53.042+09:00  INFO 16832 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-04-02T21:35:53.043+09:00  INFO 16832 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
+2023-04-02T21:35:53.048+09:00  INFO 16832 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-02T21:35:53.051+09:00  INFO 16832 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-02T21:35:53.056+09:00  INFO 16832 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
